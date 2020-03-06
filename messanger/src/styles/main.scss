@@ -1,0 +1,34 @@
+$textColor: #000;
+body{
+	color: $textColor;
+}
+@mixin marginBottom{
+	margin-bottom: 10px;
+}
+.messMy{
+	margin-left: 20%;
+	@include marginBottom;
+}
+.messMe{
+	margin-right: 20%;
+	@include marginBottom;
+}
+/*--------------*/
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 0;
+	background-color: #eee;
+}
+
+::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #eee;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 0;	
+	background-color: #ccc;
+}

@@ -1,0 +1,59 @@
+{
+  "name": "my_editor",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.26",
+    "@fortawesome/free-solid-svg-icons": "^5.12.0",
+    "@fortawesome/react-fontawesome": "^0.1.8",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.1",
+    "bootstrap": "^4.4.1",
+    "concurrently": "^5.1.0",
+    "esm": "^3.2.25",
+    "html-react-parser": "^0.10.0",
+    "node-sass": "^4.13.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1",
+    "react-js-pagination": "^3.0.2",
+    "react-native-md5": "^1.0.0",
+    "react-paginate": "^6.3.2",
+    "react-pdf": "^4.1.0",
+    "react-pdf-js": "^5.1.0",
+    "react-pdf-js-worker": "^2.0.0",
+    "react-redux": "^7.1.3",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.3.0",
+    "redux": "^4.0.4",
+    "redux-saga": "^1.1.3"
+  },
+  "scripts": {
+    "start": "concurrently \"cd ../messanger_back && node  -r esm server.js\" \"react-scripts start\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "pdfjs-dist": "^2.2.228"
+  }
+}
